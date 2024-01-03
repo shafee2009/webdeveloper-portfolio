@@ -88,7 +88,7 @@ nav>ul li {
 .about {
     padding: 130px;
     border-radius: 10px;
-    background: #fff8f3;
+    background: honeydew;
     margin: 130px 0px;
 }
 
@@ -104,7 +104,7 @@ nav>ul li {
 }
 
 .section-description {
-    color: #757575;
+    color: black;
     text-align: center;
     font-family: open sans;
     font-size: 18px;
@@ -112,4 +112,16 @@ nav>ul li {
     font-weight: 700;
     line-height: normal;
 
+}
+
+main {
+    width: 1140px;
+    margin: 0 auto;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
